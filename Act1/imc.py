@@ -19,17 +19,17 @@ if len(argv) <2:
     exit()
 
 # Variables con validación
-if int(argv[1]) <1 :
+if float(argv[1]) <1 :
     print("El peso no puede ser 0")
     exit()
 else:
-    peso = int(argv[1])
+    peso = float(argv[1])
 
-if int(argv[2]) <1 :
+if float(argv[2]) <1 :
     print("La altura no puede ser 0")
     exit()
 else:
-    altura = int(argv[2])/100 # convierte cm --> mt
+    altura = float(argv[2])/100 # convierte cm --> mt
 
 imc = peso/(altura**2)
 
