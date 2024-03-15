@@ -4,7 +4,7 @@ peso de una persona con su talla (su altura). Este valor es utilizado normalment
 indicador nutricional y constituye un índice fácil y sencillo de calcular para determinar el
 estado de obesidad y sobrepeso de una persona. El IMC se calcula de la siguiente manera:
 
-## 𝐼𝑀𝐶 = 𝑊/𝐻2
+## 𝐼𝑀𝐶 = 𝑊/𝐻^2
 
 W : corresponde al peso de la persona en Kg.
 
