@@ -31,7 +31,7 @@ if float(argv[2]) <1 :
 else:
     altura = float(argv[2])/100 # convierte cm --> mt
 
-imc = peso/(altura**2)
+imc = float(peso/(altura**2))
 
 # Condicionales
 if imc < 18.5 and imc >= 16 :
